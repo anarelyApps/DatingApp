@@ -1,7 +1,8 @@
 ﻿{
   "$schema": "https://json.schemastore.org/launchsettings.json",
    "profiles": {
-    "http": {
+    "api": {
+      "hotReloadEnabled": true,
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": false,
@@ -9,7 +10,6 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-    }
-    
+    }    
   }
 }
